@@ -1,0 +1,53 @@
+@import url('//netdna.bootstrapcdn.com/font-awesome/4.0.3/css/font-awesome.css');
+
+.overlayloader{
+  background: url('../img/social_icon_ta.png') no-repeat;
+  margin:0 auto;
+  width:26px;
+  height:26px;
+-webkit-animation: opacityblink 0.5s ease-in-out infinite;
+-moz-animation: opacityblink 0.5s ease-in-out infinite;
+-o-animation: opacityblink 0.5s ease-in-out infinite;
+}
+
+@-webkit-keyframes opacityblink {
+0% { opacity:1; }
+100% { opacity:0.2; }
+}
+@-moz-keyframes opacityblink {
+0% { opacity:1; }
+100% { opacity:0.2; }
+}
+@-o-keyframes opacityblink {
+1% { opacity:1; }
+100% { opacity:0.2; }
+}
+
+#TA_Container table a img{
+	display:block;
+	margin:0 auto;
+}
+
+#TA_Container .review{
+	margin-top: 2%;
+}
+
+#TA_Container .review a.title{
+	font-size:130%;
+}
+
+#TA_Container .review .date{
+	font-style:italic;
+	font-size:85%;
+}
+#TA_Container .review .user{
+	font-size:85%;
+}
+
+#TA_Container .review i{
+  margin-right:5px;
+}
+
+#TA_Container .review .description{
+	margin-left:14px;
+}
